@@ -1886,7 +1886,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
     debug: "env",
     cdn: {"js":{"app":"/js/app.js","parallax":"/js/plugins/parallax.js","rightMenu":"/js/plugins/rightMenu.js","rightMenus":"/js/plugins/rightMenus.js","sites":"/js/plugins/tags/sites.js","friends":"/js/plugins/tags/friends.js","contributors":"/js/plugins/tags/contributors.js","search":"/js/search/hexo.js"},"css":{"style":"/css/style.css"}},
     default: {"avatar":"https://unpkg.com/volantis-static@0.0.1654736714924/media/placeholder/avatar/round/3442075.svg","link":"https://unpkg.com/volantis-static@0.0.1654736714924/media/placeholder/link/8f277b4ee0ecd.svg","cover":"https://unpkg.com/volantis-static@0.0.1654736714924/media/placeholder/cover/76b86c0226ffd.svg","image":"https://unpkg.com/volantis-static@0.0.1654736714924/media/placeholder/image/2659360.svg"},
-    lastupdate: new Date(1697965531980),
+    lastupdate: new Date(1698055319588),
     sidebar: {
       for_page: ["blogger","category","tagcloud","text"],
       for_post: ["toc"],
@@ -2748,16 +2748,15 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
   <div class='md article-desc' itemprop="articleBody">
     
       
-        做了很多乱来的事才发现放下其实是一瞬间的选择，未来很长，所以该走了。
-连一刻也没有为青春的结束哀悼，立刻来到战场的是《炎拳》读后感。
-初次得知《炎拳》当然是因为这个：
+        得知《炎拳》当然是因为这个：
 
 然后看了藤本树的一些短篇集，感觉还是非常有意思的，于是咱就去读了读已经完结的《炎拳》。
 
 爱一个人就让他读《炎拳》吧。
 —— 某不知名网友
 
-读完了感觉确实是这样的，因为这个漫画算是能震碎三观的作品（上一个咱看的这种是《弹丸...
+读完了感觉确实是这样的，因为这个漫画算是能震碎三观的作品（上一个咱看的这种是《弹丸论破》），基本上整部的脑洞现在回想起来巨大无比，树哥他啊根本就处于一种精神亢奋的状态去画，然后产生了完全混沌的剧情。
+“冰之魔女” 降下诅...
       
     
   </div>
@@ -3927,7 +3926,7 @@ window.matchMedia('(prefers-color-scheme: light)').addListener(darkModelListener
   function pjax_giscus() {
     const HEAD = check_giscus();
     if (!HEAD) return;
-    let cfg = Object.assign({"theme":{"light":"light","dark":"dark"},"repo":"SpookerV5/comments","repo-id":"R_kgDOIuwdfQ","category":"Announcements","category-id":"DIC_kwDOIuwdfc4CTcAq","mapping":"pathname","reactions-enabled":"1","emit-metadata":"0","lang":"zh-CN"},pdata.commentConfig)
+    let cfg = Object.assign({"theme":{"light":"light","dark":"dark"}},pdata.commentConfig)
     const script = document.createElement('script');
     script.setAttribute('src', 'https://giscus.app/client.js');
     Object.keys(cfg).forEach(k=>{
